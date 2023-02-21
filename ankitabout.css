@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to left, rgb(12, 12, 12), rgb(7, 7, 7));
+}
+
+h1 {
+  color: rgb(95, 88, 2);
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  font-family: var(--slantedText);
+}
+
+h2 {
+  color: rgb(95, 88, 2);
+  background: black;
+  font-family: cursive;
+  font-size: 40px;
+  font-family: var(--slantedText);
+}
+
+p {
+  color: rgb(95, 88, 81);
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(95, 88, 2);
+  background: black;
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  font-family: var(--slantedText);
+  text-decoration: underline;
+}
+
+h4 {
+  color: rgb(95, 88, 2);
+  background: black;
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  font-family: var(--slantedText);
+}
+
+.fa-home {
+  color: white;
+}
+
+.rounded {
+  float: right;
+  padding: 10px;
+}
+
+.gallery {
+  background-color: black;
+  margin: 20px;
+}
+.gallery img {
+  margin: 2px;
+}
+.photos {
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  color: blue;
+}
+.fa-instagram {
+  color: palevioletred;
+}
+h5 {
+  font-size: 10px;
+  font-family: times;
+  color: rgb(179, 170, 98);
+  text-align: center;
+  font-size: 2rem;
+  background: black;
+  margin-top: var(--mainDark);
+}
+.banner-btn {
+  display: inline-block;
+  background: rgb(179, 170, 98);
+  text-transform: uppercase;
+  padding: 0.2rem 0.8rem;
+  color: var(--mainDark);
+  outline: 0.1rem solid rgb(179, 170, 98);
+  outline-offset: 4px;
+  transition: var(--mainTransition);
+}
+.banner-btn:hover {
+  color: white;
+  opacity: 0.7;
+  animation: show 5s ease-in-out 1;
+}

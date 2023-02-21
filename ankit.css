@@ -1,0 +1,200 @@
+body {
+  background: rgb(12, 12, 12);
+}
+
+:root {
+  --slantedText: times;
+  --primaryColor: #698f3f;
+  --secondryColor: #fca311;
+  --mainDark: #3a3e3b;
+  --mainWhite: #ffff;
+  --mainGrey: #e5e5e5;
+  --mainTransition: all 0.3s ease-in-out;
+  --letterSpacing: 0.5rem;
+}
+.speciality {
+  color: white;
+  font-family: times;
+  background-color: black;
+  margin: 2px;
+}
+
+h2 {
+  color: black;
+  font-family: monospace;
+  font-size: 30px;
+  font-family: var(--slantedText);
+}
+
+p {
+  font-family: var(--slantedText);
+  font-size: 20px;
+  color: rgb(179, 170, 98);
+}
+em {
+  color: white;
+}
+
+.fa-facebook {
+  color: blue;
+}
+.fa-instagram {
+  color: palevioletred;
+}
+h5 {
+  font-size: 30px;
+  font-family: times;
+  color: rgb(179, 170, 98);
+  text-align: center;
+  font-size: 5rem;
+  background: black;
+  margin-top: var(--mainDark);
+}
+.header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("ankit.jpeg") center/cover no-repeat fixed;
+}
+.banner {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: Times;
+  color: rgb(179, 170, 98);
+  animation: slideFromRight 5s ease-in-out 1;
+}
+a {
+  text-decoration: none;
+}
+.banner-btn {
+  display: inline-block;
+  background: rgb(179, 170, 98);
+  text-transform: uppercase;
+  padding: 0.2rem 0.8rem;
+  color: var(--mainDark);
+  outline: 0.1rem solid rgb(179, 170, 98);
+  outline-offset: 4px;
+  transition: var(--mainTransition);
+}
+@keyframes show {
+  75% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.banner-btn:hover {
+  color: white;
+  opacity: 0.7;
+  animation: show 5s ease-in-out 1;
+}
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(1000px);
+  }
+  50% {
+    transform: translateX(-200px);
+  }
+  75% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.skills {
+  background: rgba(29, 27, 27, 0.493);
+  color: var(--mainDark);
+}
+.skills {
+  font-size: 30px;
+  font-family: times;
+  padding: 2.5rem 0;
+  text-align: center;
+  transition: var(--mainTransition);
+}
+
+.skill {
+  text-transform: uppercase;
+}
+.names {
+  color: white;
+  transition: var(--mainTransition);
+}
+.hunar {
+  margin: 0 auto;
+}
+.skills:hover {
+  background: rgb(179, 170, 98);
+}
+.skills:hover .names {
+  color: var(--mainWhite);
+}
+@media screen and (min-width: 576px) {
+  .skills {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skills {
+    width: 25%;
+  }
+}
+.photos {
+  border-radius: 50%;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(68, 70, 2);
+}
+
+.gallery {
+  background-color: black;
+  margin: 20px;
+}
+.gallery img {
+  margin: 2px;
+}
+.rounded {
+  background-color: black;
+}
+h3 {
+  font-size: 10px;
+  font-family: times;
+  color: rgb(179, 170, 98);
+
+  font-size: 2rem;
+  background: black;
+  margin-top: var(--mainDark);
+}
+h8 {
+  font-size: 10px;
+  font-family: times;
+  color: rgb(179, 170, 98);
+
+  font-size: 2rem;
+
+  margin-top: var(--mainDark);
+}
+h9 {
+  font-size: 10px;
+  font-family: times;
+  color: rgb(179, 170, 98);
+
+  font-size: 1rem;
+
+  margin-top: var(--mainDark);
+}
+a {
+  font-size: 1.5rem;
+  margin-top: var(--mainDark);
+  background: rgb(179, 170, 98);
+}
